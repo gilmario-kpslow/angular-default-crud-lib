@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "preinstall": "ng build generic-crud-lib --prod"
+    "preinstall": "ng build generic-crud-lib"
   },
   "private": true,
   "dependencies": {
@@ -23,8 +23,6 @@
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3",
-    "@angular-devkit/build-angular": "~0.1000.3",
-    "@angular-devkit/build-ng-packagr": "~0.1000.3",
     "ng-packagr": "^10.0.0"
   },
   "devDependencies": {
